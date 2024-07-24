@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Papyrus;
+}
+
+input, label {
+    padding: 20px;
+}
+
+.fahr, .cels, .feels {
+    margin: 20px;
+}
